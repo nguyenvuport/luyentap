@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,600&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background-image: url("bgi.jpg");
+    line-height: 1.15;
+}
+
+/*------------------- CSS Header ------------------------ */
+.wrapper{ 
+    display: flex;
+    background-color: white;
+    position: fixed;
+    top:0;
+    z-index: 9;
+    width: 100%;
+ }
+img{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 55px;
+    width: 150px;
+}
+#logo {
+    position: relative;
+}
+
+.wrapper #header {
+    display: flex;
+}
+
+.search-text{
+    width: 430px;
+    height: 30px;
+    background-color: none;
+    border: 3px solid #000077 ;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.search-text input:focus, .search-text input:active, .search-text input{
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+    border-radius: 10px 0px 0px 10px ;
+}
+ input {
+    margin-top: 2px;
+    height: 25px;
+    border: none;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.fa-magnifying-glass{ position: fixed; margin-left:30px ; margin-top: 7px; color: #000077; font-size: 16px;}
+.btn-menu{ 
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+ button{
+    margin-inline:5px ;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    color: #000077;
+    border: none;
+    background-color: white;
+    display: block;
+    background-color: #eeeeee; border-radius: 25px;
+} 
+button a i {
+    font-size: 20px;
+    padding-right:5px ;
+       }
+button a{
+    text-decoration: none;
+    font-size: 15px;
+}
+button a:hover{ color:#66ff33; }
+
+.search-text:hover{ border: 3px solid #66ff33;} 
+.fa-magnifying-glass:hover { color:#66ff33 ;}
+.fa-bars { font-size: 16px; margin-right: 6px;}
+
+
+
+#header-2{
+    background-color: #00cccc;
+    position: relative;
+    margin-top: 63px;
+    z-index: 4;
+}
+
+.container{
+    margin: 0px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.danhmuc {
+    width: 200px;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-menu li{
+    position: relative;
+}
+#main-menu li a {
+    color: #000077;
+    text-decoration: none;
+    display: block;
+    padding: 17px 20px;
+}
+
+#main-menu>li>a{
+    position: relative;
+}
+#main-menu>li>a::before{
+    content: "";
+    height: 4px;
+    width: 0px;
+    background: #66FF33;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#main-menu>li:hover>a::before
+{
+    width: 100%;
+    display: block;
+}
+#main-menu>li:hover>a{ color: #66FF33;}
+
+/*------------------------------------------------------------------------------*/
+.content{
+    height: 400px;
+  margin-top: 120px;
+  padding: 50px 300px;
+  display: flex;
+  margin-bottom: 20px;
+}
+#sl{
+    display: flex;
+    margin-left: 45px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+#sl .db,
+#sl .soluong
+{
+    margin-top: 10px;
+}
+#mua{
+    margin-left: 24%;
+}
+#mua button{
+    background-color: #33CCFF;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 15px;
+}
+#sl p{
+    color: #0000cc;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#sl input{
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 30px;
+    border: 2px solid #FF99CC;
+    padding-right: 10px;
+}
+#sl button{
+    width: 40px;
+    background-color: #33CCFF;
+    margin-bottom: 10px;
+}
+.sanpham{
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 80%;
+    padding: 50px 40px;
+    width: 300px;
+    background-color:#FFEFD5;
+}
+.ttsp{
+    margin-top: -59px;
+    margin-left: 80%;
+    padding-top: 25px;
+    text-align: center;
+    width: 400px;
+    background-color:#FFEFD5;
+    height:300px;
+    border-radius: 6px;
+}
+#tensp{
+    color: #008800;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.ttsp #gia{
+    margin-bottom: 5px;
+    color: #CC33CC;
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-top: 250px; */
+}
+#mota{
+    margin-left: 15px;
+    font-size: 10px;
+    text-align: left;
+    color: #000077;
+}
+

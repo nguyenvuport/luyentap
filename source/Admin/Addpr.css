@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,600&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+    background-image: url('bgi.jpg');
+    }
+
+ .container-fluid{
+    width: 100%;
+    border: 1.5px solid gray;
+    margin:30px;
+    padding-bottom:50px;
+    background-color: white;
+ }
+    h2{ margin-left: 100px;}
+    .card-body{
+        margin-inline:40px;
+    }
+    .table{ width:100%; margin-bottom: 30px;}
+    table,th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 15px;
+}
+th, td{
+    padding-inline: 30px
+}
+th{ background-color: #006699;color:white}
+ .btn-primary{
+    background-color:#33CCFF;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top:0px;
+    text-decoration: none;
+}
+.thaotac{ display:flex; }
+.action{
+    display: flex;
+    text-decoration: none;
+    color:#FF6600  ;
+    font-size: 16px;
+}
+ .sm{
+   background-color:#33CCFF;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top:0px;
+    text-decoration: none;
+    border-width: 0px;
+    margin-left: 15px;
+ }

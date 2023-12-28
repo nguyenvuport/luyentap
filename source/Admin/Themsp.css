@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,600&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+    background-image: url('bgi.jpg');
+    }
+.container{ margin: 20px;
+        }
+    .card-body{
+        border: 1.5px solid gray;
+        border-radius:5px;
+        max-width: 900px;
+        margin-block:10px;
+        margin-inline: 30px;
+        padding: 20px;
+        position: relative;
+        background:white;
+    }
+    .form-group{
+        display:block;
+    }
+    input{
+        border: 1px solid gray;
+        border-radius:3px;
+        padding: 10px;
+    }
+    h2{ 
+        margin-left:350px; 
+        font-size:35px;
+    }
+    .form-control
+    {
+        display: block;
+        margin-block:5px;
+        width:90%;
+    }
+    .form-file
+    {
+        display: block;
+        margin-block:5px;
+    }
+    .btn-them{
+        border-width: 0px;
+    background-color:#33CCFF;
+    padding-inline: 20px;
+    padding-block: 15px;
+    border-radius: 5px;
+    color: white;
+    margin-top:15px;
+    text-decoration: none;
+}
